@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nikhil fitness club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            /* css reset */
+            margin: 0px;
+            padding: 0px;
+            background: url(adult-1850925.jpg);
+            height: 100%;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;s
+            font-size: 20px;
+
+        }
+        .left img{
+            width: 120px;
+            filter: invert(100%);
+        }
+        .mid{
+            border-radius: 5px;
+            width: 45%;
+            display: block;
+            margin: 20px auto;
+        }
+        .right{
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+
+        }
+        .navbar{
+            margin: 0px ;
+            display: inline-block;
+            font-size: 23px;
+            padding: 14px;
+        }
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            padding: 7px;
+        }
+        .navbar a:hover{
+            text-decoration: underline;
+            color: grey;
+
+        
+
+        }
+        .btn{
+            margin: 0px 9px;
+            padding: 4px 14px;
+            border-radius: 10px;
+            color: white;
+            background-color: black;
+            cursor: pointer;
+            border: 2px solid grey;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .btn:hover{
+            background-color: grey;
+        }
+        .container{
+            position: absolute;
+    right: 0px;
+    top: 72px;
+    display: inline-block;
+    margin: 254px 34px;
+    padding: 35px;
+    border-radius: 20px;
+    width: 32%;
+    border: 1px solid white;
+        }
+        .container h1{
+            text-align: center;
+            
+        }
+        
+        .form-group input{
+            border: 1px solid black;
+            border-radius: 10PX;
+            padding: 7px;
+            margin: 10px;
+            width: 74%;
+            text-align: center;
+
+        }
+        .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+        }
+        .form-group{
+            left margin-left: 80px auto;
+        } 
+    </style>
+</head>
+<body>
+
+    <header class="header">
+    <!-- left for logo   -->
+    <div class="left">
+        <img src="silhouette-1975689.png" alt="">
+        <center><div>Nikhil Fitness</div></center>
+    </div>
+        <!-- right for navihgation -->
+        <div class="mid">
+            <div class="navbar">
+           <span><a href="#">Home</a></span>
+           <span><a href="#">Fitness calculator</span></a>
+           <span><a href="#">Contect us</span></a>
+            <span><a href="#">About us</span></a>
+        </div>
+        </div>
+        <!-- right for  -->
+        <div class="right">
+            <button class="btn"> Call Us Now</button>
+            <button class="btn"> Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Jym Of Bilaspur</h1>
+        <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div> <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Age">
+        </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Email Id">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Phone No.">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Email Id">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+
+
+
+
+
+    </div>
+</body>
+</html>
